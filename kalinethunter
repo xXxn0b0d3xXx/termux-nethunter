@@ -183,7 +183,7 @@ if [[ ! -z $1 ]]; then
     fi
 fi
 
-printf "\n${yellow} You are going to install Kali Nethunter\n\n"
+printf "\n${yellow} You are going to install Kali NetHunter\n\n"
 
 pre_cleanup
 checksysinfo
@@ -212,7 +212,7 @@ resolvconf
 finalwork() {
         [ -e $HOME/finaltouchup.sh ] && rm $HOME/finaltouchup.sh
         echo
-        axel -a https://github.com/Hax4us/Nethunter-In-Termux/raw/master/finaltouchup.sh
+        axel -a https://github.com/kimocoder/termux-nethunter/raw/master/finaltouchup.sh
         DESTINATION=$DESTINATION SETARCH=$SETARCH bash $HOME/finaltouchup.sh
 }
 finalwork
