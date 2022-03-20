@@ -3,7 +3,7 @@
 termux-setup-storage
 
 pkg install wget nano ecj dx curl mariadb openssh unstable-repo root-repo  -y
-pkg install termux-api libusb clang cmatrix neofetch -y
+pkg install termux-api libusb clang cmatrix neofetch nyancat -y
 
 sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)"
 
