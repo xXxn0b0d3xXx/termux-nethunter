@@ -45,3 +45,10 @@ https://wiki.termux.com/wiki/Internal_and_external_storage
   * System V shared memory (shmget, shmat, shmdt and shmctl) emulation on Android using ashmem for use in Termux.
 
     https://github.com/termux/libandroid-shmem
+
+  * libandroid-support:
+    implementation of functionality missing in Bionic libc
+
+  * Audio support through OpenSLES
+  * Better access to GPU and OpenCL
+
