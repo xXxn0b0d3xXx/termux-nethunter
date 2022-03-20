@@ -1,4 +1,4 @@
-# Termux NetHunter
+# Termux NetHunter Setup
 
 This is a script by which you can install Kali nethunter (Kali Linux) in your termux application without rooted phone 
 
@@ -34,5 +34,5 @@ Rerun script with extra parameter `--insecure` or copy paste this command `./kal
 
 Default __DESKTOP__ is _XFCE4_ but you can setup __LXDE__ also https://www.hax4us.com/2018/07/how-to-install-lxde-in-kali-nethunter.html?m=1
 
-#### You have any idea to improve ? So Just give P
+
 
