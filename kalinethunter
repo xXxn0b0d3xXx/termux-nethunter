@@ -3,6 +3,8 @@
 termux-setup-storage
 
 pkg install wget nano ecj dx curl mariadb openssh unstable-repo root-repo  -y
+pkg install termux-api libusb clang cmatrix -y
+
 sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)"
 
 ln -s /data/data/com.termux/files/home/storage/shared/tencent/QQfile_recv QQ
@@ -26,3 +28,5 @@ mysql -u $(whoami)
 #flush privileges;
 
 #pg_ctl -D /data/data/com.termux/files/usr/var/lib/postgresql -l logfile start
+
+cmatrix
