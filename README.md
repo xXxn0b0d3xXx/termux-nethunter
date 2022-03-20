@@ -51,4 +51,7 @@ https://wiki.termux.com/wiki/Internal_and_external_storage
 
   * Audio support through OpenSLES
   * Better access to GPU and OpenCL
+  * Better handling of sessions
+
+
 
