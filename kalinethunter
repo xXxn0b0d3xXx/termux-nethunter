@@ -2,7 +2,7 @@
 
 termux-setup-storage
 
-pkg install automake iw wget nano ecj dx curl mariadb openssh clang libusb python3 -y
+pkg install flex bison aircrack-ng automake iw wget nano ecj dx curl mariadb openssh clang libusb python3 -y
 pkg install ocl-icd opencl-headers opencl-clhpp clvk clpeak -y
 pkg install termux-api x11-repo root-repo unstable-repo libusb cmatrix neofetch nyancat screenfetch -y
 
