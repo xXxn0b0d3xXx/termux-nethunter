@@ -9,11 +9,11 @@ reset='\033[0m'
 
 # Clean up
 pre_cleanup() {
-        find $PREFIX -name "kali*" -type d -exec rm -rf {} \; || :
+        find $HOME -name "kali*" -type d -exec rm -rf {} \; || :
 }
 
 post_cleanup() {
-        find $PREFIX -name "kalifs*" -type f -exec rm -rf {} \; || :
+        find $HOME -name "kalifs*" -type f -exec rm -rf {} \; || :
 }
 
 # Utility function for Unknown Arch
