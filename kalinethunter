@@ -10,7 +10,7 @@ sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/instal
 sleep 5
 rm -rf termux-ohmyzsh/
 
-ln -s /data/data/com.termux/files/home/storage/shared/tencent/QQfile_recv QQ
+#ln -s /data/data/com.termux/files/home/storage/shared/tencent/QQfile_recv QQ
 
 wget -O https://raw.githubusercontent.com/kimocoder/termux-nethunter/master/install-nethunter-termux
 chmod +x install-nethunter-termux
