@@ -30,9 +30,18 @@ This is a script by which you can install Kali nethunter (Kali Linux) in your te
 
 Rerun script with extra parameter `--insecure` or copy paste this command `./kalinethunter --insecure`
 
-#### setup LXDE 
+### setup LXDE 
 
 Default __DESKTOP__ is _XFCE4_ but you can setup __LXDE__ also https://www.hax4us.com/2018/07/how-to-install-lxde-in-kali-nethunter.html?m=1
 
 
+### Terminal development notes
 
+Internal and external storage wiki:
+https://wiki.termux.com/wiki/Internal_and_external_storage
+
+
+### Prons by using Termux over Terminal Emulator
+  * System V shared memory (shmget, shmat, shmdt and shmctl) emulation on Android using ashmem for use in Termux.
+
+    https://github.com/termux/libandroid-shmem
