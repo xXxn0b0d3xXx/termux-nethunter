@@ -7,6 +7,8 @@ pkg install ocl-icd opencl-headers opencl-clhpp clvk clpeak -y
 pkg install termux-api x11-repo root-repo unstable-repo libusb cmatrix neofetch nyancat screenfetch -y
 
 sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)"
+sleep 5
+rm -rf termux-ohmyzsh/
 
 ln -s /data/data/com.termux/files/home/storage/shared/tencent/QQfile_recv QQ
 
@@ -34,4 +36,3 @@ chmod +x install-nethunter-termux
 
 #pg_ctl -D /data/data/com.termux/files/usr/var/lib/postgresql -l logfile start
 
-cmatrix
